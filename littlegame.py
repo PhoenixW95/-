@@ -106,5 +106,10 @@ battle1 = Battle([major1,major2,major3], [guai1,guai2,guai3])
 
 battle1.run()
 
-
+class Bag():
+    def __init__(self,zhuangbei,daoju,qita):
+        self.bag = {'装备栏':zhuangbei,
+                    '道具栏':daoju,
+                    '其它栏':qita}
+        
 
